@@ -1,0 +1,195 @@
+body {
+    background-color: black;
+}
+
+p {
+    font-family: verdana;
+    text-align: center;
+    font-size: 30px;
+    color: darkred;
+}
+
+h1 {
+    font-family: arial;
+    color: darkviolet;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 0cm;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    animation: breath 2s alternate infinite;
+}
+
+h3 {
+color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 1cm;
+    opacity: 100;
+    animation: breath 2s alternate infinite;
+}
+h4 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    animation: breath 2s alternate infinite;
+}
+
+.animateddiv {
+    width: 100px;
+    height: 2px;
+    background: whitesmoke;
+    position: relative;
+    animation: animatediv 6s alternate infinite;
+}
+
+.bar {
+    width: auto;
+    height: 3px;
+    padding-top: 1.5px;
+    position: -webkit-sticky;
+    white-space: nowrap;
+}
+
+.bar2 {
+    width: auto;
+    height: 6px;
+    padding-top: 12px;
+    background: black;
+    position: left;
+    white-space: nowrap;
+}
+.bar3 {
+    width: auto;
+    height: 16px;
+    padding-top: 25px;
+    background: black;
+    position: left;
+    white-space: nowrap;
+}
+
+.rainbow-bg {
+    animation: rainbow-bg 15s linear;
+    animation-iteration-count: infinite;
+}
+
+.selectorgrid {
+height: 70px;
+width: auto;
+background-color: rgb(29, 29, 29);
+position: static;
+}
+
+.homebutton {
+    background-color: whitesmoke;
+    border: none;
+    position: absolute;
+}
+.homebuttonimage {
+position: absolute;
+background: url(home.png);
+background-size: 64px;
+}
+
+#center {
+    width: 1920px;
+    height: 1080px;
+    object-fit: none;
+    object-position: center top;
+}
+
+#left {
+    width: 400px;
+    height: 150px;
+    object-fit: none;
+    object-position: left top;
+}
+
+#right {
+    width: 1080px;
+    height: 720px;
+    object-fit: none;
+    object-position: right top;
+}
+
+@keyframes rainbow-bg {
+
+    100%,
+    0% {
+        background-color: rgb(255, 0, 0);
+    }
+
+    8% {
+        background-color: rgb(255, 127, 0);
+    }
+
+    16% {
+        background-color: rgb(255, 255, 0);
+    }
+
+    25% {
+        background-color: rgb(127, 255, 0);
+    }
+
+    33% {
+        background-color: rgb(0, 255, 0);
+    }
+
+    41% {
+        background-color: rgb(0, 255, 127);
+    }
+
+    50% {
+        background-color: rgb(0, 255, 255);
+    }
+
+    58% {
+        background-color: rgb(0, 127, 255);
+    }
+
+    66% {
+        background-color: rgb(0, 0, 255);
+    }
+
+    75% {
+        background-color: rgb(127, 0, 255);
+    }
+
+    83% {
+        background-color: rgb(255, 0, 255);
+    }
+
+    91% {
+        background-color: rgb(255, 0, 127);
+    }
+}
+
+@keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes animatediv {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 94.69%;
+    }
+
+}
+
+@keyframes breath {
+from {
+    opacity: 100%;
+}
+to {
+    opacity: 40%;
+}
+}
