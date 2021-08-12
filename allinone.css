@@ -1,17 +1,23 @@
 body {
-    background-color: black;
+    background-image: linear-gradient(to left, rgb(49, 49, 49), rgb(26, 26, 26));
 }
+
+html {
+    scroll-behavior: smooth;
+    }
+    
 
 p {
     font-family: verdana;
     text-align: center;
     font-size: 30px;
-    color: darkred;
+    color: white;
+    text-align: center;
 }
 
 h1 {
-    font-family: arial;
-    color: darkviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
     text-align: center;
     font-size: 23px;
     padding-top: 0cm;
@@ -39,12 +45,39 @@ h4 {
     animation: breath 2s alternate infinite;
 }
 
-.animateddiv {
-    width: 100px;
-    height: 2px;
-    background: whitesmoke;
-    position: relative;
-    animation: animatediv 6s alternate infinite;
+::-webkit-scrollbar {
+    display: none;
+}
+
+.nava {
+text-decoration: none;
+}
+
+.li {
+color: white;
+padding: 10px 20px 10px 10px;
+margin-left: 0px;
+float: right;
+font-size: 20px;
+}
+
+.navul {
+list-style: none;
+margin: 10px;
+display: inline;
+text-align: center;
+margin-bottom: 30px;
+}
+
+section {
+margin-top: 45px;
+}
+
+
+.blank2 {
+margin-top: 300px;
+height: 650px;
+
 }
 
 .bar {
@@ -53,6 +86,8 @@ h4 {
     padding-top: 1.5px;
     position: -webkit-sticky;
     white-space: nowrap;
+    margin-bottom: 50px;
+    margin-top: 40px;
 }
 
 .bar2 {
