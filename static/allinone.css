@@ -4,8 +4,8 @@ body {
 
 html {
     scroll-behavior: smooth;
-    }
-    
+}
+
 
 p {
     font-family: verdana;
@@ -31,13 +31,14 @@ h2 {
 }
 
 h3 {
-color: whitesmoke;
+    color: whitesmoke;
     text-align: center;
     font-size: 30px;
     padding-top: 1cm;
     opacity: 100;
     animation: breath 2s alternate infinite;
 }
+
 h4 {
     color: white;
     text-align: center;
@@ -50,34 +51,41 @@ h4 {
 }
 
 .nava {
-text-decoration: none;
+    text-decoration: none;
 }
 
 .li {
-color: white;
-padding: 10px 20px 10px 10px;
-margin-left: 0px;
-float: right;
-font-size: 20px;
+    color: white;
+    padding: 10px 15px 10px 10px;
+    margin-left: 0px;
+    float: right;
+    font-size: 20px;
 }
 
 .navul {
-list-style: none;
-margin: 10px;
-display: inline;
-text-align: center;
-margin-bottom: 30px;
+    list-style: none;
+    margin: 10px;
+    display: inline;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 section {
-margin-top: 45px;
+    margin-top: 45px;
 }
 
 
 .blank2 {
-margin-top: 300px;
-height: 650px;
+    margin-top: 300px;
+    height: 650px;
+}
 
+.blank {
+    margin-top: 500px;
+}
+
+.li:hover {
+    background-color: rgb(36, 36, 36)
 }
 
 .bar {
@@ -98,6 +106,7 @@ height: 650px;
     position: left;
     white-space: nowrap;
 }
+
 .bar3 {
     width: auto;
     height: 16px;
@@ -113,10 +122,10 @@ height: 650px;
 }
 
 .selectorgrid {
-height: 70px;
-width: auto;
-background-color: rgb(29, 29, 29);
-position: static;
+    height: 70px;
+    width: auto;
+    background-color: rgb(29, 29, 29);
+    position: static;
 }
 
 .homebutton {
@@ -124,10 +133,11 @@ position: static;
     border: none;
     position: absolute;
 }
+
 .homebuttonimage {
-position: absolute;
-background: url(home.png);
-background-size: 64px;
+    position: absolute;
+    background: url(home.png);
+    background-size: 64px;
 }
 
 #center {
@@ -203,28 +213,36 @@ background-size: 64px;
     }
 }
 
-@keyframes rainbow { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 25%}
-    100%{background-position:0% 50%}
-}
-
-@keyframes animatediv {
-    from {
-        left: 0%;
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%
     }
 
-    to {
-        left: 94.69%;
+    50% {
+        background-position: 100% 25%
     }
 
+    100% {
+        background-position: 0% 50%
+    }
 }
 
-@keyframes breath {
-from {
-    opacity: 100%;
+.logo {
+    margin-top: 32px;
+    margin-right: 0.5cm;
+    margin-left: 0.5cm;
 }
-to {
-    opacity: 40%;
+
+.logo:hover {
+    background-color: rgb(20, 20, 20)
 }
+
+.projectinfo {
+background-color:white;
+padding:20px;
+width: 128px;
+margin-left: auto;
+margin-right: auto;
+font-size: 12px;
+list-style: none;
 }
