@@ -64,9 +64,8 @@ h4 {
 
 .navul {
     list-style: none;
-    /* margin: 10px; */
-    /* margin-bottom: 30px; */
-    /* inline display cant use margin. */
+    margin: 10px;
+    margin-bottom: 30px;
     display: inline;
     text-align: center;
 
@@ -249,8 +248,8 @@ font-size: 12px;
 list-style: none;
 }
 /* for mobile */
-@media screen and (max-width: 430px) {
-  selection {
-    margin-top 100:
-  }
+@media only screen and (max-width: 423px) {
+    section {
+        margin-top: 100px;
+    }
 }
